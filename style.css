@@ -1,34 +1,30 @@
-.RequiredStar  {color: red;}
+h1 {
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;  /*dik gedrukt*/
+    font-style: italic;   /*schuin gedrukt*/
+}
 
-body
+h2 {font-size: 20px;  color: #0000ff; font-weight: bold;}
+
+h3 {font-size: 16px; color: teal; font-weight: bold;}
+
+p {color: #4D4D4D;}
+a {color: #8A2BE2;  text-decoration: none;}
+
+#par1 {font-weight: bold;}
+   
+
+/*
+ id selectie
+#kop1
 {
-background-image: url("/Users/xxvan/Downloads/pexels-jplenio-1103970.jpg");
-background-size: 100%;
+
 
 }
 
+ class selectie 
+.koppen
+{
 
-table
-{margin: auto;}
-
-h1
-{text-align: center; margin: auto;  }
-
-#logoimg
-{width: 15%; margin-bottom: -110px; }
-
-#Numberinput
-{width: 15%;}
-
-/*
-dit doet niks
-*/
-
-#AccountText
-{text-align: center;}
-
-#EmailLabel
-{margin-left: -10px;}
-
-#PasswordLabel
-{margin-left: -10px;}
+} 
