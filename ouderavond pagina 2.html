@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="" href="opmaak ouderavond.css">
+    <title>Ouderavond</title>
+
+    <style>
+        body {
+            background: rgb(73, 120, 162);
+            padding-top: 15px;
+            padding-left: 5px;
+            text-align: left;
+        }
+        
+       
+        .top-layer {
+            background-color: rgb(36, 98, 101); 
+            height: 100px; 
+            width: 100%; 
+            position: fixed; 
+            top: 0; 
+            left: 0;
+            z-index: 1000;
+            display: flex; 
+            align-items: center; /* zorgt dat de hyperlinken in het midden komen te staan van de hoogte */
+            padding-left: 20px; 
+        }
+
+       
+        .top-layer a {
+            color: white;
+            text-decoration: none; /* haalt de link lijn weg */
+            font-size: 20px;
+            padding: 10px; 
+        }
+
+        .top-layer a.link2 {
+            color: rgb(214, 214, 68); }
+        
+
+        
+        .content {
+            padding-top: 120px; 
+            color: rgb(255, 255, 255);
+        }
+
+        h1 {
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    
+   
+    <div class="top-layer">
+        <a href="ouderavondbegin.html">Home</a>
+        <a href="ouderavond pagina 2.html" class="link2" >pagina 2</a>
+        <a href="ouderavond pagina 3.html">pagina 3</a>
+        
+    </div>
+
+   
+    
+    <div class="content">
+        <h1>Pagina 2</h1>
+        <p>This is the main content area with a blue background and a red layer at the top.</p>
+        <p>You can add more content here...</p>
+    </div>
+
+    <br>
+
+    <img src="ouderavond website fotos/Logo-TCR.webp" alt="">
+</body>
+</html>
